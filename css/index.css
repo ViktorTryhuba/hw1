@@ -1,29 +1,33 @@
-/* =======================MAIN=========================== */
+/* =======================COMPONENTS=========================== */
 
 .title {
-    color: #212121;
-    text-align: center;
-    font-size: 36px;
+    color: inherit; 
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
-    letter-spacing: 1.08px;
 }
 
+/* =======================COMPONENTS=========================== */
+
+
+
+/* =======================MAIN=========================== */
+
 /* =======================HERO=========================== */
+
+.hero {
+    background-color: #2F303A;
+}
 
 .hero-title {
     font-size: 44px;
     font-weight: 900;
     line-height:  calc(60/44);
     letter-spacing: 0.06em;
-    text-align: center;
-    /* color: #FFFFFF; */
+    color: #FFFFFF;
 }
 
 .hero-btn {
     color: #FFF;
-    text-align: center;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -44,11 +48,63 @@
 
 /* =======================CHARCTERISTIC=========================== */
 
+.charct-menu-title {
+    font-size: 14px;
+    line-height: calc(16/14);
+}
 
-
+.charct-menu-text {
+    color: var(--primary-color);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 171.429%; 
+    letter-spacing: 0.42px;
+}
 
 /* =======================CHARACTERISTIC=========================== */
 
+/* =======================IMG-CHARACTERISTIC=========================== */
 
+.img-charct-title {
+    font-size: 36px;
+    line-height: calc(42/36);
+}
+
+/* =======================IMG-CHARACTERISTIC=========================== */
+
+/* =======================OUR-TEAM=========================== */
+
+.our-team {
+    background-color: #F5F4FA;
+}
+
+.our-team-title {
+    font-size: 36px;
+    line-height: calc(42/36);
+}
+
+.our-team-menu {
+    border-radius: 0px 0px 4px 4px;
+    background: #FFF;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.teammate-name {
+    color: inherit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: calc(19/16);
+    letter-spacing: 0.48px;
+}
+
+.our-team-menu-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: calc(19/16);
+    letter-spacing: 0.03em;
+}
+/* =======================OUR-TEAM=========================== */
 
 /* =======================MAIN=========================== */
