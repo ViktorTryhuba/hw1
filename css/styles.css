@@ -11,20 +11,35 @@ body {
     color: #212121;
 }
 
-.list {
-    list-style: none;
+h1,h2,h3,h4,p {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-.link {
-    text-decoration: none;
+ul,ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
-/* ====================MAIN======================== */
+img {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+}
+
+.list {list-style: none;}
+
+.link {text-decoration: none;}
+
+/* ====================/MAIN======================== */
 
 
 
 /* ====================COMPONENTS======================== */
-/* ====================COMPONENTS======================== */
+/* ====================/COMPONENTS======================== */
 
 
 
@@ -78,7 +93,7 @@ body {
     color: var(--hover-color);
 }
 
-/* ====================HEADER======================== */
+/* ====================/HEADER======================== */
 
 
 
@@ -116,4 +131,4 @@ body {
     color: var(--hover-color);
 }
 
-/* ====================FOOTER======================== */
+/* ====================/FOOTER======================== */

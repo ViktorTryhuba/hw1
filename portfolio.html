@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -31,80 +32,99 @@
         </ul>
     </header>
         <main>
-            <section>
-                <div>
+            <section class="main-portfolio">
+                <div class="buttons">
                         <h1 hidden>portfolio buttons</h1>
-                    <ul>
-                        <li><button type="button">Усі</button></li>
-                        <li><button type="button">Веб-сайти</button></li>
-                        <li><button type="button">Додатки</button></li>
-                        <li><button type="button">Дизайн</button></li>
-                        <li><button type="button">Маркетинг</button></li>
+                    <ul class="buttons-menu list">
+                        <li class="buttons-menu-item"><button class="buttons-menu-btn" type="button">Усі</button></li>
+                        <li class="buttons-menu-item"><button class="buttons-menu-btn" type="button">Веб-сайти</button></li>
+                        <li class="buttons-menu-item"><button class="buttons-menu-btn" type="button">Додатки</button></li>
+                        <li class="buttons-menu-item"><button class="buttons-menu-btn" type="button">Дизайн</button></li>
+                        <li class="buttons-menu-item"><button class="buttons-menu-btn" type="button">Маркетинг</button></li>
                     </ul>
                 </div> 
+                <!-- PRODUCTS -->
                 <div>
-                    <ul>
-                        <li>
-                            <a href="">
-                                <img src="/img/PeopleOnMonitor.jpg" alt="WebSite"  width="370" height="294">
-                                <h2>Технокряк</h2>
-                                <p>Веб-сайт</p>
+                    <ul class="product-menu list">
+                        <li class="product-menu-item">
+                            <a class="product-menu-link link" href="">
+                                <img class="product-menu-img" src="/img/PeopleOnMonitor.jpg" alt="WebSite"  width="370" height="294">
+                                <div class="product-menu-container">
+                                    <h2 class="product-menu-title">Технокряк</h2>
+                                    <p class="product-menu-text">Веб-сайт</p>
+                                </div>
                             </a>
                         </li>
-                        <li>
-                            <a href="">
-                                <img src="/img/Basketball.jpg" alt="basketballists" width="370" height="294">
-                                <h2>Постер New Orlean vs Golden Star</h2>
-                                <p>Дизайн</p>
+                        <li class="product-menu-item">
+                            <a class="product-menu-link link" href="">
+                                <img class="product-menu-img" src="/img/Basketball.jpg" alt="basketballists" width="370" height="294">
+                                <div class="product-menu-container">
+                                    <h2 class="product-menu-title">Постер New Orlean vs Golden Star</h2>
+                                    <p class="product-menu-text">Дизайн</p>
+                                </div>
                             </a>
                         </li>
-                        <li>
-                            <a href="">
-                                <img src="/img/fish.jpg" alt="logo with fish" width="370" height="294">
-                                <h2>Ресторан Seafood</h2>
-                                <p>Додаток</p>
+                        <li class="product-menu-item">
+                            <a class="product-menu-link link" href="">
+                                <img class="product-menu-img" src="/img/fish.jpg" alt="logo with fish" width="370" height="294">
+                                <div class="product-menu-container">
+                                    <h2 class="product-menu-title">Ресторан Seafood</h2>
+                                    <p class="product-menu-text">Додаток</p>
+                                </div>
                             </a>
                         </li>
-                        <li>
-                            <a href="">
-                                <img src="/img/headphones.jpg" alt="headphones" width="370" height="294">
-                                <h2>Проєкт Prime</h2>
-                                <p>Маркетинг</p>
+                        <li class="product-menu-item">
+                            <a class="product-menu-link link" href="">
+                                <img class="product-menu-img" src="/img/headphones.jpg" alt="headphones" width="370" height="294">
+                                <div class="product-menu-container">
+                                    <h2 class="product-menu-title">Проєкт Prime</h2>
+                                    <p class="product-menu-text">Маркетинг</p>
+                                </div>
                             </a>
                         </li>
-                        <li>
-                            <a href="">
-                                <img src="/img/boxes.jpg" alt="Boxes" width="370" height="294">
-                                <h2>Проєкт Boxes</h2>
-                                <p>Додаток</p>
+                        <li class="product-menu-item">
+                            <a class="product-menu-link link" href="">
+                                <img class="product-menu-img" src="/img/boxes.jpg" alt="Boxes" width="370" height="294">
+                                <div class="product-menu-container">
+                                    <h2 class="product-menu-title">Проєкт Boxes</h2>
+                                    <p class="product-menu-text">Додаток</p>
+                                </div>
                             </a>
                         </li>
-                        <li>
-                            <a href="">
-                                <img src="/img/monitor.jpg" alt="monitor with world map" width="370" height="294">
-                                <h2>Inspiration has no Borders</h2>
-                                <p>Веб-сайт</p>
+                        <li class="product-menu-item">
+                            <a class="product-menu-link link" href="">
+                                <img class="product-menu-img" src="/img/monitor.jpg" alt="monitor with world map" width="370" height="294">
+                                <div class="product-menu-container">
+                                    <h2 class="product-menu-title">Inspiration has no Borders</h2>
+                                    <p class="product-menu-text">Веб-сайт</p>
+                                </div>
                             </a>
                         </li>
-                        <li>
-                            <a href="">
-                                <img src="/img/book.jpg" alt="book" width="370" height="294">
-                                <h2>Видання Limited Edition</h2>
-                                <p>Дизайн</p>
+                        <li class="product-menu-item">
+                            <a class="product-menu-link link" href="">
+                                <img class="product-menu-img" src="/img/book.jpg" alt="book" width="370" height="294">
+                                <div class="product-menu-container">
+                                    <h2 class="product-menu-title">Видання Limited Edition</h2>
+                                    <p class="product-menu-text">Дизайн</p>
+                                </div>
                             </a>
                         </li>
-                        <li>
-                            <a href="">
-                                <img src="/img/LabelTag.jpg" alt="lable tag" width="370" height="294">
-                                <h2>Проєкт LAB</h2>
-                                <p>Маркетинг</p>
+                        <li class="product-menu-item">
+                            <a class="product-menu-link link" href="">
+                                <img class="product-menu-img" src="/img/LabelTag.jpg" alt="lable tag" width="370" height="294">
+                                <div class="product-menu-container">
+                                    <h2 class="product-menu-title">Проєкт LAB</h2>
+                                    <p class="product-menu-text">Маркетинг</p>
+                                </div>
                             </a>
                         </li>
-                        <li>
-                            <a href="">
-                                <img src="/img/BuisnessOnMontor.jpg" alt="man typing" width="370" height="294">
-                                <h2>Growing Business</h2>
-                                <p>Додаток</p>
+                        <li class="product-menu-item">
+                            <a class="product-menu-link link" href="">
+                                <img class="product-menu-img" src="/img/BuisnessOnMontor.jpg" alt="man typing" width="370" height="294">
+                                <div class="product-menu-container">
+                                    <h2 class="product-menu-title">Growing Business</h2>
+                                    <p class="product-menu-text">Додаток</p>
+                                </div>
                             </a>
                         </li>
                     </ul>
