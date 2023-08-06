@@ -14,6 +14,7 @@
 <body>
     <!-- HEADER -->
     <header class="page-header">
+      <div class="header-container container">
         <h2 hidden>header</h2>
         <!-- NAVIGATE HEADER -->
         <nav class="page-nav">
@@ -30,19 +31,20 @@
             <li class="contact-menu-item"><a class="contact-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li class="contact-menu-item"><a class="contact-number link" href="tel:380961111111">+38 096 111 11 11</a></li>
         </ul>
+      </div>
     </header>
      <!-- MAIN -->
     <main>
-        <section>
+        <section class="hero">
         <!-- HERO MAIN -->
-        <div class="hero">
+          <div class="hero-container container">
             <h1 class="hero-title">Ефективні рішення для<br> вашого бізнесу</h1>
             <button type="button" class="hero-btn">Замовити послугу</button>
-        </div>
-        
-        <div>
-        <!-- CHARCTERISTIC -->
-        <div class="charct">
+          </div>
+        </section>
+          <!-- CHARCTERISTIC -->
+        <section class="charct section">
+          <div class="charct-container container">
             <h2 hidden>characteristic</h2>
             <ul class="charct-menu list">
                 <li class="charct-menu-item">
@@ -62,9 +64,11 @@
                     <p class="charct-menu-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                 </li>
             </ul>
-        </div>
+          </div>
+        </section>
         <!-- WHAT DO WE DO -->
-        <div class="img-charct">
+        <section class="img-charct">
+          <div class="img-charct-container container">
             <h2 class="img-charct-title title">Чим ми займаємося</h2>
             <ul class="img-charct-menu list">
                 <li class="img-charct-menu-item">
@@ -79,9 +83,11 @@
                     <img class="external-design" src="/img/coloring.jpg" alt="coloring" width="370" height="294">
                 </li>
             </ul>
-        </div>
+          </div>
+        </section>
         <!-- OUR TEAM -->
-        <div class="our-team">
+        <section class="our-team section">
+          <div class="our-team-container container">
             <h2 class="our-team-title title">Наша команда</h2>
             <ul class="our-team-menu list">
                 <li class="our-team-menu-item">
@@ -126,17 +132,19 @@
     </main>
     <!-- FOOTER -->
     <footer class="page-footer">
-        <h2 hidden>footer</h2>
-        <!-- LOGO FOOTER-->
-        <a class="studio-logo link" href="/index.html"><span class="web-logo">Web</span>Studio</a>
-        <!-- ADDRESS -->
-        <address class="page-address">
-            <ul class="footer-menu list">
-                <li class="footer-menu-item"><a class="footer-menu-address link" href="">м. Київ, пр-т Лесі Українки, 26</a></li>
-                <li class="footer-menu-item"><a class="footer-menu-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="footer-menu-item"><a class="footer-menu-phone link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
-        </address>
+        <div class="footer-container container">
+            <h2 hidden>footer</h2>
+            <!-- LOGO FOOTER-->
+            <a class="studio-logo link" href="/index.html"><span class="web-logo">Web</span>Studio</a>
+            <!-- ADDRESS -->
+            <address class="page-address">
+                <ul class="footer-menu list">
+                    <li class="footer-menu-item"><a class="footer-menu-address link" href="">м. Київ, пр-т Лесі Українки, 26</a></li>
+                    <li class="footer-menu-item"><a class="footer-menu-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li class="footer-menu-item"><a class="footer-menu-phone link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                </ul>
+            </address>
+        </div>
     </footer>
 </body>
 </html>

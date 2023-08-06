@@ -22,17 +22,28 @@ ul,ol {
     padding-left: 0;
 }
 
-img {
-    display: block;
-}
+img { display: block; }
 
-button {
-    cursor: pointer;
-}
+button { cursor: pointer;}
 
 .list {list-style: none;}
 
 .link {text-decoration: none;}
+
+address {font-style: normal;}
+
+.container {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.section {
+    padding-bottom: 94px;
+    padding-top: 94px;
+}
 
 /* ====================/MAIN======================== */
 
@@ -44,6 +55,23 @@ button {
 
 
 /* ====================HEADER======================== */
+
+.page-header{
+    display: flex;
+    padding: auto;
+}
+
+.page-nav{
+    display: flex;
+}
+
+.header-menu{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .web-logo {
     font-family: Raleway;
@@ -76,6 +104,11 @@ button {
     color: inherit;
 }
 
+.contact-menu{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
 
 .contact-menu-item a {
     font-size: 14px;
