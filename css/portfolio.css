@@ -17,7 +17,15 @@
 
 /* ====================BUTTONS======================== */
 
+.buttons-menu{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 50px;
+}
+
 .buttons-menu-btn {
+    padding: 6px 22px;
     border-radius: 4px;
     background: #F5F4FA;
     color: inherit;
@@ -26,6 +34,11 @@
     font-weight: 500;
     line-height: 162.5%; 
     letter-spacing: 0.48px;
+    border: none;
+}
+
+.buttons-menu:first-child{
+    padding: 6px 25px;
 }
 
 .buttons-menu-btn:hover,
@@ -39,8 +52,16 @@
 
 /* ====================PRODUCTS======================== */
 
+.product-menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
 .product-menu-container {
     border: 1px solid #EEE;
+    border-top: none;
+    padding: 20px 24px;
 }
 
 .product-menu-title {
@@ -50,6 +71,7 @@
     font-weight: 700;
     line-height: 200%; 
     letter-spacing: 1.08px;
+    margin-bottom: 4px;
 }
 
 .product-menu-text {
