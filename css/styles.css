@@ -122,6 +122,13 @@ address {font-style: normal;}
     letter-spacing: 0.02em;
     text-align: left;
     color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-menu-icon{
+    fill: var(--primary-color);
 }
 
 .menu-link:hover ,
@@ -129,6 +136,11 @@ address {font-style: normal;}
 .contact-menu-item a:hover,
 .contact-menu-item a:focus {
     color: var(--hover-color);
+}
+
+.contact-menu-item a:hover .contact-menu-icon,
+.contact-menu-item a:focus .contact-menu-icon{
+    fill: var(--hover-color);
 }
 
 /* ====================/HEADER======================== */
