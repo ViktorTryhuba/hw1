@@ -67,6 +67,15 @@
     width: 270px;
 }
 
+.charct-menu-icon-container{
+    background-color: #F5F4FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 100px;
+    margin-bottom: 30px;
+}
+
 .charct-menu-title {
     font-size: 14px;
     line-height: calc(16/14);
@@ -130,8 +139,7 @@
 }
 
 .our-team-menu-container{
-    margin-bottom: 30px;
-    margin-top: 30px;
+    padding: 30px 32px;
 }
 
 .teammate-name {
@@ -152,6 +160,34 @@
     letter-spacing: 0.03em;
     text-align: center;
 }
+
+.our-team-social-list{
+    display: flex;
+    gap: 10px;
+    margin-top: 16px;
+    justify-content: center;
+}
+
+.our-team-social-link{
+    width: 44px;
+    height: 44px;
+    background-color: #FFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-team-social-link:hover,
+.our-team-social-link:focus{
+    background-color:  var(--hover-color);
+}
+
+.our-team-social-icon:hover,
+.our-team-social-icon:focus{
+    fill: #FFF;
+}
+
 /* =======================/OUR-TEAM=========================== */
 
 /* =======================/MAIN=========================== */
