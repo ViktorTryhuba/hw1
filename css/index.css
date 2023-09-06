@@ -178,16 +178,61 @@
     justify-content: center;
 }
 
+.our-team-social-icon{
+    fill: var(--icon-color);
+}
+
 .our-team-social-link:hover,
 .our-team-social-link:focus{
     background-color:  var(--hover-color);
 }
 
-.our-team-social-icon:hover,
-.our-team-social-icon:focus{
+.our-team-social-link:hover .our-team-social-icon,
+.our-team-social-link:focus .our-team-social-icon{
     fill: #FFF;
 }
 
 /* =======================/OUR-TEAM=========================== */
+
+/* =======================REGULAR-COSTUMERS=========================== */
+
+.regular-costumers-title{
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 36px;
+    line-height: calc(42/36);
+    letter-spacing: 1.08px;
+}
+
+.regular-costumers-menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.regular-costumers-link{
+    display: flex;
+    border-radius: 4px;
+    border: 1px solid #AFB1B8;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+}
+
+.regular-costumers-icon{
+    fill: var(--icon-color);
+}
+
+.regular-costumers-link:hover,
+.regular-costumers-link:focus {
+    border: 1px solid var(--hover-color);
+}
+
+.regular-costumers-link:hover svg,
+.regular-costumers-link:focus svg {
+    fill: var(--hover-color);
+}
+
+/* =======================/REGULAR-COSTUMERS=========================== */
 
 /* =======================/MAIN=========================== */
