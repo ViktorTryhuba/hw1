@@ -107,7 +107,21 @@ address {font-style: normal;}
     letter-spacing: 0.02em;
     text-align: left;
     color: inherit;
+    position: relative;
 }
+
+.current { color: var(--hover-color) }
+
+.current::after {
+    background-color: var(--hover-color);
+    position: absolute;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    top: 46px;
+    border-radius: 2px;
+}   
 
 .contact-menu{
     display: flex;
