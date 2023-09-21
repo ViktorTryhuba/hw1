@@ -44,6 +44,7 @@
     background: #2196F3;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     padding: 10px 32px;
+    transition: background-color var(--transition-dur-func);
 }
 
 .hero-btn:hover, .hero-btn:focus{
@@ -111,6 +112,27 @@
     gap: 30px;
 }
 
+.img-charct-menu-container{
+    position: relative;
+}
+
+.img-charct-menu-overlay{
+    bottom: 0;
+    position: absolute;
+    color: var(--secondary-color);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.42px;
+    background: rgba(47, 48, 58, 0.80);
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+
 /* =======================/IMG-CHARACTERISTIC=========================== */
 
 /* =======================OUR-TEAM=========================== */
@@ -176,10 +198,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color var(--transition-dur-func);
 }
 
 .our-team-social-icon{
     fill: var(--icon-color);
+    transition: fill var(--transition-dur-func);
 }
 
 .our-team-social-link:hover,
@@ -217,10 +241,12 @@
     justify-content: center;
     width: 170px;
     height: 92px;
+    transition: border-color var(--transition-dur-func);
 }
 
 .regular-costumers-icon{
     fill: var(--icon-color);
+    transition: fill var(--transition-dur-func);
 }
 
 .regular-costumers-link:hover,
@@ -236,3 +262,48 @@
 /* =======================/REGULAR-COSTUMERS=========================== */
 
 /* =======================/MAIN=========================== */
+
+/* =======================MODAL-WINDOW=========================== */
+
+.backdrop{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.20);
+}
+
+.modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%)
+}
+
+.modal-button{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    border-radius:50%;
+    border: 1px solid #0000001A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-button-close{
+    transition: var(--transition-dur-func);
+}
+
+.modal-button:hover .modal-button-close,
+.modal-button:focus .modal-button-close{
+    fill: var(--hover-color);
+}
+
+/* =======================/MODAL-WINDOW=========================== */

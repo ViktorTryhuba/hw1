@@ -35,6 +35,7 @@
     line-height: 162.5%; 
     letter-spacing: 0.48px;
     border: none;
+    transition: background-color var(--transition-dur-func),color var(--transition-dur-func) , box-shadow var(--transition-dur-func) ;
 }
 
 .buttons-menu:first-child{
