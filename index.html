@@ -49,7 +49,7 @@
         <!-- HERO MAIN -->
           <div class="hero-container container">
             <h1 class="hero-title">Ефективні рішення для<br> вашого бізнесу</h1>
-            <button type="button" class="hero-btn">Замовити послугу</button>
+            <button type="button" class="hero-btn" data-modal-open>Замовити послугу</button>
           </div>
         </section>
           <!-- CHARCTERISTIC -->
@@ -349,7 +349,7 @@
             <div class="footer-contact-container">
                 <h2 hidden>footer</h2>
                 <!-- LOGO FOOTER-->
-                <a class="studio-logo link" href="/index.html"><span class="web-logo">Web</span>Studio</a>
+                <a class="studio-logo logo link" href="/index.html"><span class="web-logo logo">Web</span>Studio</a>
                 <!-- ADDRESS -->
                 <address class="page-address">
                     <ul class="footer-menu list">
@@ -394,9 +394,9 @@
             </address>
         </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop" data-modal>
         <div class="modal">
-            <button class="modal-button">
+            <button class="modal-button" data-modal-close>
                 <svg class="modal-button-close" height="18" width="18">
                     <use href="/img/symbol-defs.svg#icon-close-modal"></use>
                 </svg>
@@ -404,5 +404,5 @@
         </div>
     </div>
 </body>
-<script src="./modal.js"></script>
+<script src="./js/modal.js"></script>
 </html>
